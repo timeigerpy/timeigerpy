@@ -164,11 +164,11 @@ from disnake.ext import commands
 
 bot = commands.Bot("!")
 
-@bot.command(name="sub_command", description="Sub command example")
+@bot.command(name="sub_example", description="Sub command example")
 async def test(inter):
   print("!")
   
-@test.sub_command(name="sub_command", description="Sub command example")
+@test.sub_command(name="sub_commands", description="Sub command example")
 async def commands1(inter):
   embed=disnake.Embed(title="Example sub command", description="it's sub command")
   await inter.response.send_message(embed=embed)
