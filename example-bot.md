@@ -145,7 +145,7 @@ def setup(bot: commands.Bot):
     bot.add_cog(TestCommand(bot))
 print(f"> Extension {__name__} is ready\n----------\n")
 ```
-##Authors:
+## Authors:
 > Main delevopers:
 >> TimEiger#4524
 > Comming soon...
