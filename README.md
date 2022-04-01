@@ -1,6 +1,7 @@
 # Hello my names is Vyacheslav, i delevoper on disnake.py
 #### My project:
-> Liquid bot, Liquid Tools
+> Liquid bot
+>  Liquid Tools
 
 #### Contact me
 >
