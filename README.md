@@ -5,6 +5,6 @@
 >Contact me
 >
 >   Discord:  
-    >> TimEiger#4524
+>>     TimEiger#4524
 >   My server:
-    >> [Click](https://discord.gg/Tk9R9CH8Z3)
+>>     [Click](https://discord.gg/Tk9R9CH8Z3)
