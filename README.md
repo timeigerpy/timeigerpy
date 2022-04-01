@@ -13,7 +13,4 @@
 
 #### My server:
 
-  - [Click](https://discord.gg/Tk9R9CH8Z3)
-
-
-`s`
+  - [`Click`](https://discord.gg/Tk9R9CH8Z3)
