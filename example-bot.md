@@ -122,7 +122,7 @@ bot.load_extension('command.test')
 
 bot.run("place token you bot")
 ```
-### command/text.py
+### command/test.py
 ```py
 import disnake
 from disnake.ext import commands
