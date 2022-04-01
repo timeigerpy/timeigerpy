@@ -6,6 +6,7 @@
 >
 >   Discord:  
 >>     TimEiger#4524
-     
-My server:
-     [Click](https://discord.gg/Tk9R9CH8Z3)
+>
+>   My server:
+>>     https://discord.gg/Tk9R9CH8Z3
+>
