@@ -53,7 +53,7 @@ async def embed_command(ctx):
   embed.set_footer(text="Text in footer", icon_url="https://example.com")
   embed.set_thumbnail(url="https://example.com")
   embed.add_field(name="Text for field", value="Description field", inline=True)
-  embed.add_image(url="https://example.com")
+  embed.set_image(url="https://example.com")
   await ctx.send(content="text", embed=embed)
   
 bot.run("place token you bot")
