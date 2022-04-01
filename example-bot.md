@@ -77,6 +77,69 @@ async def embed_command(ctx):
 async def command_2(inter):
   embed=disnake.Embed(title="Example command", description="Example ephemeral command", color=0x0000ff)
   await inter.response.send_message(content="ephemeral command!", embed=embed, ephemeral=True)
-  
+    
+#option command
+@bot.slash_command(name="option_command", description="Example option command")
+async def command_3(inter, string: str, number: int, ephemeral: bool):
+    embed=disnake.Embed(title="Example Option command", description=f"str: {string}\nnumber: {number}")
+    if ephemeral == True:
+        await inter.response.send_message(embed=embed, ephemeral=True)
+    elif ephemeral == False:
+        await inter.response.send_message(embed=embed, ephemeral=False)
+    else:
+        return
+
 bot.run("place token you bot")
+```
+## Cogs bot
+### main.py
+```py
+#import
+import disnake
+from disnake.ext import commands
+import datetime
+#virable bot
+bot = commands.Bot("!")
+
+#on_ready
+@bot.event
+async def on_ready():
+  print("bot is online")
+
+#error handler
+@bot.event
+async def on_slash_command_error(interaction, error)
+  await interaction.response.send_message(error)
+
+@bot.event
+async def on_command_error(ctx, error):
+  await ctx.reply(error)
+
+bot.load_extension('command.test')
+
+bot.run("place token you bot")
+```
+### command/text.py
+```py
+import disnake
+from disnake.ext import commands
+import datetime
+
+
+
+bot = commands.Bot("l!", intents=intents, test_guild="942485560142995557")
+
+class TestCommand(commands.Cog):
+  def __init__(self, bot: commands.Bot):
+        self.bot = bot
+
+
+  @bot.slash_command(name="cogs_example", description="Example cogs command")
+  async def command(self, inter):
+    await inter.response.send_message("Example cogs command!")
+    
+
+def setup(bot: commands.Bot):
+    bot.add_cog(TestCommand(bot))
+print(f"> Extension {__name__} is ready\n----------\n")
 ```
