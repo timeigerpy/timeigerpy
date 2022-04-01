@@ -49,7 +49,7 @@ async def ping(ctx):
 @bot.command()
 async def embed_command(ctx):
   embed=disnake.Embed(title="Title embed", description="Description embed", color=0xff0000, timestamp=datetime.datetime.now())
-  embed.set_author(name="Name author", icon_url="Icon url author", url="https//example.com")
+  embed.set_author(name="Name author", icon_url="https://discord.com/assets/e93667acdd3212c58dabd580cf175504.svg", url="https//example.com")
   embed.set_footer(text="Text in footer", icon_url="https://discord.com/assets/e93667acdd3212c58dabd580cf175504.svg")
   embed.set_thumbnail(url="https://discord.com/assets/e93667acdd3212c58dabd580cf175504.svg")
   embed.add_field(name="Text for field", value="Description field", inline=True)
