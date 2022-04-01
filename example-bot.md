@@ -9,7 +9,6 @@
 
 > write in console
 >> `py -m pip install disnake`
-> 
 
 ## Documentation
 [`Click here`](https://docs.disnake.dev/en/latest/api.html)
