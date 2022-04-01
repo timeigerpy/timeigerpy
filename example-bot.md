@@ -136,7 +136,6 @@ class TestCommand(commands.Cog):
   def __init__(self, bot: commands.Bot):
         self.bot = bot
 
-
   @bot.slash_command(name="cogs_example", description="Example cogs command")
   async def command(self, inter):
     await inter.response.send_message("Example cogs command!")
