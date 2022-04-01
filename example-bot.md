@@ -10,9 +10,13 @@
 - [`Author`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#authors)
 
 ## Download python
- - [`Windows 64-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe)
- - [`Windows 32-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4.exe)
- - [`macOS 64-bit universal`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-macos11.pkg)
+ - `Windows`
+   - [`Windows 64-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe)
+   - [`Windows 32-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4.exe)
+ - `macOS`
+   - [`macOS 64-bit universal`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-macos11.pkg)
+
+ - [`More links`](https://www.python.org/downloads/release/python-3912/)
 
 ## pip
 
