@@ -2,8 +2,9 @@
 ##### My project:
 > Liquid bot, Liquid Tools
 
-Contact me
-   Discord:
-    - TimEiger#4524
-   My server:
-    - [Click](https://discord.gg/Tk9R9CH8Z3)
+>Contact me
+>
+>   Discord:  
+    >> TimEiger#4524
+>   My server:
+    >> [Click](https://discord.gg/Tk9R9CH8Z3)
