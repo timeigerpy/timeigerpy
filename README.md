@@ -21,6 +21,7 @@
 
 > write in console
 >> `py -m pip install disnake`
+>
 
 ## Code
 ```py
