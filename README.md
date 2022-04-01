@@ -2,7 +2,7 @@
 #### My project:
 > Liquid bot, Liquid Tools
 
- - Contact me
+#### Contact me
 >
 >   Discord:  
 >>    TimEiger#4524
