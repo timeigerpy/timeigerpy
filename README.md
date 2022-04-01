@@ -10,5 +10,4 @@
 
 My server:
 
-
-<a href="https://discord.gg/Tk9R9CH8Z3">https://i.playground.ru/p/UlYWkvAwThBIQJE5pdlwrg.png</a>
+  - [Click](https://discord.gg/Tk9R9CH8Z3)
