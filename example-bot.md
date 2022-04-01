@@ -1,5 +1,13 @@
 # Example bot on disnake.py
 
+## Pages:
+- [`Downlad python`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#download-python)
+  - [`Pip`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#pip)
+- [`Docs`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#documentation)
+- [`Code bot`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#code)
+  - [`Cogs bot`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#code)
+- [`Author`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#authors)
+
 ## Download python
  - [`Windows 64-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe)
  - [`Windows 32-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4.exe)
