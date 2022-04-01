@@ -2,7 +2,7 @@
 ![banner](https://cdn.discordapp.com/attachments/824353537080557569/959398559021690950/unknown.png)
 ## Bio my
 #### My project:
-- Liquid bot
+- [`Liquid Bot`](https://dsc.gg/liquid-bot)
 
 - Liquid Tools
 
