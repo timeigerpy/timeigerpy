@@ -1,4 +1,10 @@
 # Example bot on disnake.py
+
+## download python
+ - [`Windows 64-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe)
+ - [`Windows 32-bit`](https://www.python.org/ftp/python/3.10.4/python-3.10.4.exe)
+ - [`macOS 64-bit universal`](https://www.python.org/ftp/python/3.10.4/python-3.10.4-macos11.pkg)
+
 ## pip
 
 > write in console
