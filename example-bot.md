@@ -156,6 +156,28 @@ def setup(bot: commands.Bot):
     bot.add_cog(TestCommand(bot))
 print(f"> Extension {__name__} is ready\n----------\n")
 ```
+
+### Sub commands
+```py
+import disnake
+from disnake.ext import commands
+
+bot = commands.Bot("!")
+
+@bot.command(name="sub_command", description="Sub command example")
+async def test(inter):
+  print("!")
+  
+@test.sub_command(name="sub_command", description="Sub command example")
+async def commands1(inter):
+  embed=disnake.Embed(title="Example sub command", description="it's sub command")
+  await inter.response.send_message(embed=embed)
+
+bot.run('place token your bot')
+
+```
+
+
 ## Authors:
 > Main delevopers:
 >> TimEiger#4524
