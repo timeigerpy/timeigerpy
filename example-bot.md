@@ -88,6 +88,7 @@ async def command_3(inter, string: str, number: int, ephemeral: bool):
         await inter.response.send_message(embed=embed, ephemeral=False)
     else:
         return
+        
 
 bot.run("place token you bot")
 ```
