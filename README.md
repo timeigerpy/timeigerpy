@@ -6,7 +6,9 @@
 >
 >   Discord:  
 >>     TimEiger#4524
->
->   My server:
->>     https://discord.gg/Tk9R9CH8Z3
->
+
+
+My server:
+
+
+<a href="https://i.playground.ru/p/UlYWkvAwThBIQJE5pdlwrg.png">https://discord.gg/Tk9R9CH8Z3</a>
