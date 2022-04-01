@@ -13,4 +13,4 @@
 
 #### My server:
 
-  - [`Click`](https://discord.gg/Tk9R9CH8Z3)
+  - [`Liquid Community`](https://discord.gg/Tk9R9CH8Z3)
