@@ -31,13 +31,22 @@ import datetime
 
 bot = commands.Bot("!")
 
+#error handler
+@bot.event
+async def on_slash_command_error(interaction, error)
+  await interaction.response.send_message(error)
+
+@bot.event
+async def on_command_error(ctx, error):
+  await ctx.reply(error)
+
 #slash command
 
 @bot.slash_command(name="ping", description="Description about command")
 async def command_1(inter):
   ping = int(bot.latency * 1000)
   await inter.response.send_message(f"🏓 Pong!\nMy ping: *{ping}*")
-  
+ 
 #simple command
 
 @bot.command()
