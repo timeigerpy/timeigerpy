@@ -19,6 +19,7 @@
 import disnake
 from disnake.ext import commands
 import datetime
+from disnake.utils import format_dt
 #virable bot
 bot = commands.Bot("!")
 
@@ -91,6 +92,16 @@ async def command_3(inter, string: str, number: int, ephemeral: bool):
     else:
         return
         
+#virable command
+@bot.slash_command(name="", description="Example virable command")
+async def command_4(inter, member: disnake.User):
+  name_author = member
+  date_cr1 = format_dt(member.created_at, 'D')
+  date_cr = format_dt(member.created_at, 'R')
+  embed=disnake.Embed(title=f"Info {name_author}", description=f"Created date: {date_cr1}({date_cr})")
+  embed.set_thumbnail(url=member.avatar)
+  await inter.response.send_message(embed=embed)
+  
 
 bot.run("place token you bot")
 ```
