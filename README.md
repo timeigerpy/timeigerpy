@@ -78,6 +78,12 @@ async def embed_command(ctx):
   
   await ctx.send(content="text", embed=embed)
   
+#ephemeral command
+@bot.slash_command(name="ephemeral_command")
+async def command_2(inter):
+  embed=disnake.Embed(title="Example command", description="Example ephemeral command", color=0x0000ff)
+  await inter.response.send_message(content="ephemeral command!", embed=embed, ephemeral=True)
+  
 bot.run("place token you bot")
 ```
 
