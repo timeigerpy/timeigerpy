@@ -22,7 +22,7 @@ import disnake
 from disnake.ext import commands
 import datetime
 
-bot = commands.Bot()
+bot = commands.Bot("!")
 
 #slash command
 
@@ -40,14 +40,14 @@ async def ping(ctx):
 
 #embed
 @bot.command()
-async def embed_command(inter):
+async def embed_command(ctx):
   embed=disnake.Embed(title="Title embed", description="Description embed", color=0xff0000, timestamp=datetime.datetime.now())
   embed.set_author(name="Name author", icon_url="Icon url author", url="https//example.com")
   embed.set_footer(text="Text in footer", icon_url="https://example.com")
   embed.set_thumbnail(url="https://example.com")
   embed.add_field(name="Text for field", value="Description field", inline=True)
   embed.add_image(url="https://example.com")
-  await inter.response.send_message(content="text", embed=embed)
+  await ctx.send(content="text", embed=embed)
   
 bot.run("place token you bot")
 ```
