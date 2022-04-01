@@ -6,6 +6,7 @@
 - [`Docs`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#documentation)
 - [`Code bot`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#code)
   - [`Cogs bot`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#code)
+  - [`Sub command`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#sub-commands)
 - [`Author`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#authors)
 
 ## Download python
