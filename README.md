@@ -11,4 +11,4 @@
 My server:
 
 
-<a href="https://i.playground.ru/p/UlYWkvAwThBIQJE5pdlwrg.png">https://discord.gg/Tk9R9CH8Z3</a>
+<a href="https://discord.gg/Tk9R9CH8Z3">https://i.playground.ru/p/UlYWkvAwThBIQJE5pdlwrg.png</a>
