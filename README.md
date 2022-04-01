@@ -17,7 +17,12 @@
   - [`Liquid Community`](https://discord.gg/Tk9R9CH8Z3)
 
 # Example bot on disnake.py
+## pip
 
+> write in console
+>> `py -m pip install disnake`
+
+## Code
 ```py
 import disnake
 from disnake.ext import commands
