@@ -7,5 +7,5 @@
 >   Discord:  
 >>     TimEiger#4524
      
-   My server:\n
+My server:
      [Click](https://discord.gg/Tk9R9CH8Z3)
