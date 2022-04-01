@@ -25,11 +25,17 @@
 
 ## Code
 ```py
+#import
 import disnake
 from disnake.ext import commands
 import datetime
-
+#virable bot
 bot = commands.Bot("!")
+
+#on_ready
+@bot.event
+async def on_ready():
+  print("bot is online")
 
 #error handler
 @bot.event
