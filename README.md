@@ -9,7 +9,7 @@
 >
 >   Discord:  
 >>    TimEiger#4524
->>    
+>  
 
 
 #### My server:
@@ -21,7 +21,7 @@
 
 > write in console
 >> `py -m pip install disnake`
->
+> 
 
 ## Code
 ```py
