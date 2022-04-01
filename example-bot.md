@@ -127,7 +127,7 @@ import datetime
 
 
 
-bot = commands.Bot("l!", intents=intents, test_guild="942485560142995557")
+bot = commands.Bot("!")
 
 class TestCommand(commands.Cog):
   def __init__(self, bot: commands.Bot):
