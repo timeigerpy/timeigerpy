@@ -190,6 +190,26 @@ bot.run('place token your bot')
 
 ```
 
+### Command "Bot thinks"
+```py
+import disnake
+from disnake.ext import commands
+
+bot = commands.Bot("!")
+  
+@bot.command(name="Bot thihks", description="Example!!")
+async def commands_bot(inter):
+  await inter.response.defer()
+  
+  #here you can do anything while the bot is thinking
+  
+  embed=disnake.Eembed(description="Example!", color=0x6a00ff)
+  await inter.followup.send(content=f"{inter.author}", embed=embed)
+
+bot.run('place token your bot')
+
+```
+
 
 ## Authors:
 > Main delevopers:
