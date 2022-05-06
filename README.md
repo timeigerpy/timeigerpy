@@ -12,7 +12,7 @@
 
 #### My server:
 
-  - [`Liquid Community`](https://discord.gg/3kF57Cezxx)
+  - [`Len-Gusi`](https://discord.gg/3kF57Cezxx)
 
 ## Example bot
   - [`click to go`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#example-bot-on-disnakepy)
