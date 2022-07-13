@@ -2,7 +2,7 @@
 ![banner](https://cdn.discordapp.com/attachments/824353537080557569/959398559021690950/unknown.png)
 ## Bio my
 #### My project:
-- `None`
+- `abzval bot`
 
 #### Contact me
   - Discord:  
@@ -12,7 +12,7 @@
 
 #### My server:
 
-  - [`Len-Gusi`](https://discord.gg/3kF57Cezxx)
+  - [`TimEiger squad`](https://discord.gg/BYjCagD3Dr)
 
 ## Example bot
   - [`click to go`](https://github.com/timeigerpy/timeigerpy/blob/main/example-bot.md#example-bot-on-disnakepy)
