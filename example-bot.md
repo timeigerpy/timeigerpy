@@ -231,10 +231,7 @@ sql.execute(f"""CREATE TABLE IF NOT EXISTS users (
 def create(id: int):
     sql.execute(f"SELECT id FROM users WHERE id = ?", (id,))
     if sql.fetchone() is None:
-        bam = 0
-        prem = 0
-        bit = 0
-        sql.execute(f"INSERT INTO users VALUES (?, ?, ?, ?, ?)", (id, 10))
+        sql.execute(f"INSERT INTO users VALUES (?, ?,)", (id, 10))
         db.commit()
     else:
         return
