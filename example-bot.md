@@ -210,6 +210,68 @@ bot.run('place token your bot')
 
 ```
 
+### Economy command
+```py
+#import
+import sqlite3
+import disnake
+import random
+from disnake.ext import command
+
+bot = commands.Bot("!", test_guild=[id_you_server])
+
+db = sqlite3.connect("db.db")
+saa = db.cursor()
+
+sql.execute(f"""CREATE TABLE IF NOT EXISTS users (
+    id BIGINT,
+    cash BIGINT,
+)""")
+
+def create(id: int):
+    sql.execute(f"SELECT id FROM users WHERE id = ?", (id,))
+    if sql.fetchone() is None:
+        bam = 0
+        prem = 0
+        bit = 0
+        sql.execute(f"INSERT INTO users VALUES (?, ?, ?, ?, ?)", (id, 10))
+        db.commit()
+    else:
+        return
+    db.commit()
+
+@bot.slash_command(description="Check you balance!")
+async def balance(inter):
+  id = inter.author.id
+  create(id)
+  for value in sql.execute("SELECT cash FROM users WHERE id = ?", (id,))
+    embed=disnake.Embed(title=f"Balance: {inter.author.name}", description=f"{value[0]}")
+    await inter.response.send_message(embed=embed)
+
+@bot.slash_command(description="Casino")
+async def casino(inter, money: int):
+  if money < 0:
+    await inter.response.send_message("Please enter a number greater than `0`")
+  else:
+    id = inter.author.id
+    create(id)
+    for value in sql.execute("SELECT cash FROM users WHERE id = ?", (id,))
+      if value[0] < money:
+        await inter.response.send_message("you don't have that much money!")
+      else:
+          rand = random.randint(1,2)
+          if rand == 1:
+            value1 = value[0] + money
+            sql.execute("UPDATE users SET bit = {int(value1)} WHERE id = '{id}'")
+            await inter.response.send_message("Congratulations you have won!")
+          elif rand == 2:
+            value1 = value[0] - money
+            sql.execute("UPDATE users SET bit = {int(value1)} WHERE id = '{id}'")
+            await inter.response.send_message("Alas, you lost :(")
+          else:
+            await inter.response.send_message("Error!")
+     
+```
 
 ## Authors:
 > Main delevopers:
