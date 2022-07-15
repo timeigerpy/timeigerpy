@@ -222,12 +222,13 @@ bot = commands.Bot("!", test_guild=[id_you_server])
 
 db = sqlite3.connect("db.db")
 saa = db.cursor()
-
+#Create a table
 sql.execute(f"""CREATE TABLE IF NOT EXISTS users (
     id BIGINT,
     cash BIGINT,
 )""")
 
+#function so that there are no bugs
 def create(id: int):
     sql.execute(f"SELECT id FROM users WHERE id = ?", (id,))
     if sql.fetchone() is None:
@@ -237,6 +238,7 @@ def create(id: int):
         return
     db.commit()
 
+#balance command
 @bot.slash_command(description="Check you balance!")
 async def balance(inter):
   id = inter.author.id
@@ -245,6 +247,7 @@ async def balance(inter):
     embed=disnake.Embed(title=f"Balance: {inter.author.name}", description=f"{value[0]}")
     await inter.response.send_message(embed=embed)
 
+#casino command
 @bot.slash_command(description="Casino")
 async def casino(inter, money: int):
   if money < 0:
@@ -260,10 +263,12 @@ async def casino(inter, money: int):
           if rand == 1:
             value1 = value[0] + money
             sql.execute("UPDATE users SET bit = {int(value1)} WHERE id = '{id}'")
+            db.commit()
             await inter.response.send_message("Congratulations you have won!")
           elif rand == 2:
             value1 = value[0] - money
             sql.execute("UPDATE users SET bit = {int(value1)} WHERE id = '{id}'")
+            db.commit()
             await inter.response.send_message("Alas, you lost :(")
           else:
             await inter.response.send_message("Error!")
