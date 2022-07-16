@@ -7,6 +7,8 @@
 #### Contact me
   - Discord:  
     - `TimEiger#4524`
+  - Gmail:
+    - `timeigercontact@gmail.com`
 
 
 
